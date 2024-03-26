@@ -1,0 +1,52 @@
+.message-sent-container{
+    height: max-content;
+}
+
+.message-user-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.message-user-icon{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 10px;;
+    color: #ffffff;
+    
+}
+
+.message-user-name{
+    align-self: center;
+   
+
+}
+.message-user-time{
+    color: grey;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.message-sent{
+    background-color: #008DDA;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+    padding:5px 10px;
+    margin-left: 3vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.message-likes-count{
+    display: inline-block;
+}
+.message-like-button{
+    background-color: transparent;
+    border-style: none;
+}
+

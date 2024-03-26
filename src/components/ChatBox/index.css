@@ -1,0 +1,127 @@
+.chatbox-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:767px){
+    .chatbox-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+.siderbar-container {
+  height: 100vh;
+  width: 35%;
+  background-color: #F7EEDD;
+}
+
+@media screen and  (max-width:767px){
+    .siderbar-container{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 20%;
+    }
+}
+
+.sidebar-username-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 16px;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.sidebar-user-profile-name{
+    margin-right: 10px;
+    background-color: #008DDA;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sidebar-caption{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 15px;
+}
+
+@media  screen and (max-width:767px) {
+  .sidebar-username-container{
+    font-size: 16px;
+
+  }
+  .sidebar-user-profile-name{
+    margin-right: 8px;
+  }
+  .sidebar-caption{
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+
+
+.message-container {
+  height: 95%;
+  width: 100%;
+  overflow-y: auto;
+  
+  background-color: #ACE2E1;
+}
+
+@media screen and (max-width:767px) {
+  .message-container{
+    height: 75%;
+    width: 100%;
+  }
+}
+
+
+.list-container {
+  width: 60vw;
+  height: 80vh;
+  list-style-type: none;
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    
+    background-color: #ACE2E1;
+
+}
+.input-text{
+  width: 70%;
+  margin-right: 5px;
+  background-color: #F7EEDD;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ACE2E1;
+  height: 20px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.send-icon{
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media screen and(max-width:767px) {
+  .input-container{
+
+  }
+}
